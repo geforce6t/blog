@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Zaimone</title>
-  <icon>https://geforce6t.github.io/icon.png</icon>
+  <icon>https://geforce6t.github.io/blog/icon.png</icon>
   
-  <link href="https://geforce6t.github.io/atom.xml" rel="self"/>
+  <link href="https://geforce6t.github.io/blog/atom.xml" rel="self"/>
   
-  <link href="https://geforce6t.github.io/"/>
+  <link href="https://geforce6t.github.io/blog/"/>
   <updated>2021-05-20T16:04:33.402Z</updated>
-  <id>https://geforce6t.github.io/</id>
+  <id>https://geforce6t.github.io/blog/</id>
   
   <author>
     <name>Shashwat</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>test</title>
-    <link href="https://geforce6t.github.io/2021/05/20/test/"/>
-    <id>https://geforce6t.github.io/2021/05/20/test/</id>
+    <link href="https://geforce6t.github.io/blog/2021/05/20/test/"/>
+    <id>https://geforce6t.github.io/blog/2021/05/20/test/</id>
     <published>2021-05-20T15:18:57.000Z</published>
     <updated>2021-05-20T16:04:33.402Z</updated>
     
@@ -34,10 +34,10 @@
     
     
     
-    <category term="LibreHealth" scheme="https://geforce6t.github.io/categories/LibreHealth/"/>
+    <category term="LibreHealth" scheme="https://geforce6t.github.io/blog/categories/LibreHealth/"/>
     
     
-    <category term="GSoC21&#39;" scheme="https://geforce6t.github.io/tags/GSoC21/"/>
+    <category term="GSoC21&#39;" scheme="https://geforce6t.github.io/blog/tags/GSoC21/"/>
     
   </entry>
   
