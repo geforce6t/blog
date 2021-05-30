@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Zaimone</title>
   <icon>https://geforce6t.github.io/blog/icon.png</icon>
-  
+  <subtitle>Blogs</subtitle>
   <link href="https://geforce6t.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://geforce6t.github.io/blog/"/>
