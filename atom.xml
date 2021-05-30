@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Zaimone</title>
+  <icon>https://geforce6t.github.io/blog/icon.png</icon>
+  
+  <link href="https://geforce6t.github.io/blog/atom.xml" rel="self"/>
+  
+  <link href="https://geforce6t.github.io/blog/"/>
+  <updated>2021-05-30T09:02:11.010Z</updated>
+  <id>https://geforce6t.github.io/blog/</id>
+  
+  <author>
+    <name>Shashwat</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>community-bonding</title>
+    <link href="https://geforce6t.github.io/blog/2021/05/29/community-bonding/"/>
+    <id>https://geforce6t.github.io/blog/2021/05/29/community-bonding/</id>
+    <published>2021-05-29T03:46:17.000Z</published>
+    <updated>2021-05-30T09:02:11.010Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/1000/1*4FkOWgo5ou2OfJYrxrdZKw.png&quot; alt=&quot;The GSoC Experience. This blog is about my work at</summary>
+        
+      
+    
+    
+    
+    <category term="LibreHealth" scheme="https://geforce6t.github.io/blog/categories/LibreHealth/"/>
+    
+    
+    <category term="GSoC21" scheme="https://geforce6t.github.io/blog/tags/GSoC21/"/>
+    
+  </entry>
+  
+</feed>
