@@ -6,7 +6,7 @@
   <link href="https://geforce6t.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://geforce6t.github.io/blog/"/>
-  <updated>2021-05-30T17:18:32.599Z</updated>
+  <updated>2021-06-02T17:10:11.457Z</updated>
   <id>https://geforce6t.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ehr_endpoints</title>
+    <link href="https://geforce6t.github.io/blog/2021/06/02/ehr-endpoints/"/>
+    <id>https://geforce6t.github.io/blog/2021/06/02/ehr-endpoints/</id>
+    <published>2021-06-02T16:59:25.000Z</published>
+    <updated>2021-06-02T17:10:11.457Z</updated>
+    
+    <content type="html"><![CDATA[<p><em><strong>CHECK-IN WORKFLOW :</strong></em></p><p><code>Valid search parameters for this search are: [_id, _language, _lastUpdated, active, address, address-city, address-country, address-postalcode, address-state, address-use, birthdate, death-date, deceased, email, family, gender, general-practitioner, given, identifier, language, link, name, organization, phone, phonetic, telecom]</code></p><h5 id="SEARCH-PARAMS"><a href="#SEARCH-PARAMS" class="headerlink" title="SEARCH PARAMS :"></a>SEARCH PARAMS :</h5><p><code>GET [base]/Patient?identifier=[value]</code></p><p><code>GET [base]/Patient?name=[value]</code></p><h5 id="CREATE-PATIENT"><a href="#CREATE-PATIENT" class="headerlink" title="CREATE PATIENT :"></a>CREATE PATIENT :</h5><p><code>POST [base]/Patient</code></p><h5 id="GET-PATIENT"><a href="#GET-PATIENT" class="headerlink" title="GET PATIENT :"></a>GET PATIENT :</h5><p><code>GET [base]/Patient/[_id]</code></p><h5 id="EDIT-PATIENT"><a href="#EDIT-PATIENT" class="headerlink" title="EDIT PATIENT :"></a>EDIT PATIENT :</h5><p><code>PUT [base]/Patient/[_id]</code></p><p><em><strong>APPOINTMENT WORKFLOW :</strong></em></p><p><em>SCHEDULE TAB</em></p><p><code>Valid search parameters for this search are: [_id, _language, _lastUpdated, active, actor, date, identifier, service-category, service-type, specialty]</code></p><h5 id="SEARCH-PARAMS-1"><a href="#SEARCH-PARAMS-1" class="headerlink" title="SEARCH PARAMS :"></a>SEARCH PARAMS :</h5><p><code>GET [base]/Schedule?actor=Practitioner/[value]</code><br><code>GET [base]/Schedule?actor=Location/[value]</code><br><code>GET [base]/Schedule?actor=Patient/[value]</code></p><p><code>GET [base]/Schedule?service-category=[value]</code></p><h5 id="CREATE-SCHEDULE"><a href="#CREATE-SCHEDULE" class="headerlink" title="CREATE SCHEDULE :"></a>CREATE SCHEDULE :</h5><p><code>POST [base]/Schedule</code></p><h5 id="GET-SCHEDULE"><a href="#GET-SCHEDULE" class="headerlink" title="GET SCHEDULE :"></a>GET SCHEDULE :</h5><p><code>GET [base]/Schedule/[_id]</code></p><h5 id="EDIT-SCHEDULE"><a href="#EDIT-SCHEDULE" class="headerlink" title="EDIT SCHEDULE :"></a>EDIT SCHEDULE :</h5><p><code>PUT [base]/Schedule/[_id]</code></p><p><em>SLOT TAB</em></p><p><code>Valid search parameters for this search are: [_id, _language, _lastUpdated, appointment-type, identifier, schedule, service-category, service-type, specialty, start, status]</code></p><h5 id="SEARCH-PARAMS-2"><a href="#SEARCH-PARAMS-2" class="headerlink" title="SEARCH PARAMS :"></a>SEARCH PARAMS :</h5><p><code>GET [base]/Slot?status=[value]</code><br><code>GET [base]/Slot?schedule=[value]</code></p><h5 id="CREATE-SLOT"><a href="#CREATE-SLOT" class="headerlink" title="CREATE SLOT :"></a>CREATE SLOT :</h5><p><code>POST [base]/Slot</code></p><h5 id="GET-SLOT"><a href="#GET-SLOT" class="headerlink" title="GET SLOT :"></a>GET SLOT :</h5><p><code>GET [base]/Slot/[_id]</code></p><h5 id="EDIT-SLOT"><a href="#EDIT-SLOT" class="headerlink" title="EDIT SLOT :"></a>EDIT SLOT :</h5><p><code>PUT [base]/Slot/[_id]</code></p><p><em>APPOINTMENT TAB</em></p><p><code>Valid search parameters for this search are: [_id, _language, _lastUpdated, actor, appointment-type, based-on, date, identifier, location, part-status, patient, practitioner, reason-code, reason-reference, service-category, service-type, slot, specialty, status, supporting-info]&quot;</code></p><h5 id="SEARCH-PARAMS-3"><a href="#SEARCH-PARAMS-3" class="headerlink" title="SEARCH PARAMS :"></a>SEARCH PARAMS :</h5><p><code>GET [base]/Appointment?actor=[value]</code><br><code>GET [base]/Appointment?status=[value]</code></p><h5 id="CREATE-APPOINTMENT"><a href="#CREATE-APPOINTMENT" class="headerlink" title="CREATE APPOINTMENT :"></a>CREATE APPOINTMENT :</h5><p><code>POST [base]/Appointment</code></p><h5 id="GET-APPOINTMENT"><a href="#GET-APPOINTMENT" class="headerlink" title="GET APPOINTMENT :"></a>GET APPOINTMENT :</h5><p><code>GET [base]/Appointment/[_id]</code></p><h5 id="EDIT-APPOINTMENT"><a href="#EDIT-APPOINTMENT" class="headerlink" title="EDIT APPOINTMENT :"></a>EDIT APPOINTMENT :</h5><p><code>PUT [base]/Appointment/[_id] </code>                                                                  `</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;CHECK-IN WORKFLOW :&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Valid search parameters for this search are: [_id, _language, _lastUpdated,</summary>
+        
+      
+    
+    
+    
+    <category term="EHR" scheme="https://geforce6t.github.io/blog/categories/EHR/"/>
+    
+    
+    <category term="GSoC21" scheme="https://geforce6t.github.io/blog/tags/GSoC21/"/>
+    
+  </entry>
   
   <entry>
     <title>community-bonding</title>
