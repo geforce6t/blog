@@ -6,7 +6,7 @@
   <link href="https://geforce6t.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://geforce6t.github.io/blog/"/>
-  <updated>2021-07-04T04:15:41.603Z</updated>
+  <updated>2021-07-11T13:42:14.457Z</updated>
   <id>https://geforce6t.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Week5</title>
+    <link href="https://geforce6t.github.io/blog/2021/07/11/Week5/"/>
+    <id>https://geforce6t.github.io/blog/2021/07/11/Week5/</id>
+    <published>2021-07-11T13:10:28.000Z</published>
+    <updated>2021-07-11T13:42:14.457Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="WEEK5"><a href="#WEEK5" class="headerlink" title="WEEK5"></a>WEEK5</h3><center><img src="https://pbs.twimg.com/media/EwEDuXNXAAQCoXF.png" alt="LibreHealth" width="400"/></center><h3 id="PROGRESS-MADE-THIS-WEEK"><a href="#PROGRESS-MADE-THIS-WEEK" class="headerlink" title="PROGRESS MADE THIS WEEK:"></a>PROGRESS MADE THIS WEEK:</h3><p>Hi! We have a small change in the implementation plan. As per the proposal this week =&gt; week 5 was meant for implementing the visit workflow in the react / EHR application. The implementation required some new components, which were created last week as per the plan, but the Merge Requests are not merged yet. As there can be multiple changes and modifications required after the MR’s are reviewed, It would be better to wait till the components are merged after modifications if required.</p><p>Therefore this week was based on doing the tasks of the 7th Week as Week6 is planned for improvements and bug fixing.</p><p>Primarily this week was spent creating the last set of components that will be required for the workflows planned.</p><p>The following components were created -</p><ul><li>MedicationRequest</li><li>dosage</li></ul><p>These components will be used for e-prescription workflow, although the dosage backbone element can be used for other Medication workflow based resources as well.</p><p>The pattern used for creating these components is same as the one used for other components.</p><p>Here is the screenshot:</p><p><img src="https://gitlab.com/librehealth/toolkit/lh-toolkit-webcomponents/uploads/3516b76204a5809231af905e5b9222b9/medicationrequest.png" alt="medicationrequest"></p><hr><h2 id="next-week"><a href="#next-week" class="headerlink" title="next week:"></a>next week:</h2><ul><li>find and fix bugs in the react app.</li><li>start implementing visit workflows in the react application.</li></ul><p>see you next week 😄.</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;WEEK5&quot;&gt;&lt;a href=&quot;#WEEK5&quot; class=&quot;headerlink&quot; title=&quot;WEEK5&quot;&gt;&lt;/a&gt;WEEK5&lt;/h3&gt;&lt;center&gt;
+&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="LibreHealth" scheme="https://geforce6t.github.io/blog/categories/LibreHealth/"/>
+    
+    
+    <category term="GSoC21" scheme="https://geforce6t.github.io/blog/tags/GSoC21/"/>
+    
+  </entry>
   
   <entry>
     <title>Week4</title>
