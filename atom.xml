@@ -6,7 +6,7 @@
   <link href="https://geforce6t.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://geforce6t.github.io/blog/"/>
-  <updated>2021-07-19T15:18:30.649Z</updated>
+  <updated>2021-07-27T06:47:33.053Z</updated>
   <id>https://geforce6t.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Week7</title>
+    <link href="https://geforce6t.github.io/blog/2021/07/27/Week7/"/>
+    <id>https://geforce6t.github.io/blog/2021/07/27/Week7/</id>
+    <published>2021-07-27T06:22:03.000Z</published>
+    <updated>2021-07-27T06:47:33.053Z</updated>
+    
+    <content type="html"><![CDATA[<center><img src="https://pbs.twimg.com/media/EwEDuXNXAAQCoXF.png" alt="LibreHealth" width="400"/></center><h3 id="PROGRESS-MADE-THIS-WEEK"><a href="#PROGRESS-MADE-THIS-WEEK" class="headerlink" title="PROGRESS MADE THIS WEEK:"></a>PROGRESS MADE THIS WEEK:</h3><p>Hi, As discussed in the last week’s blog , Week 7 was to be used for the following tasks:</p><ul><li>Complete the visit-nurse workflow (the parts which are not implemented yet.)</li><li>Complete the visit-provider workflow.</li><li>Start working on the e-prescription workflow.</li></ul><p>This week I was a little busy with some academic work, hence all of the above pointers were not possible, Hence the last 2 pointers will be shifted to the upcoming week. (WEEK 8)</p><h3 id="DESCRIPTION"><a href="#DESCRIPTION" class="headerlink" title="DESCRIPTION:"></a>DESCRIPTION:</h3><p>This week I have mainly worked on completing the visit nurse workflow. As the vitals signs and medication statement components were merged, the react-ehr application was updated to include the screens which use these components in the visit-nurse workflow.</p><p>Another interesting thing is that most of these screens are having almost a similar structure, hence there is a possibility that a single component can be created as a layout component for different screens.</p><h3 id="NEXT-WEEK’s-PLAN"><a href="#NEXT-WEEK’s-PLAN" class="headerlink" title="NEXT WEEK’s PLAN:"></a>NEXT WEEK’s PLAN:</h3><ul><li>Complete the visit-provider workflow.</li><li>Start working on the e-prescription workflow.</li><li>fix build fail.</li></ul><p>The dosage component seems to cause a build failure, which will be fixed in the coming week.</p><p>reiterating the pointers from last week’s blog for the implementation points of the visit-provider workflow:</p><ul><li>First screen contains a find-patient component to select a patient.</li><li>After the patient is selected a redux action is triggered which updates redux state and stores the selected patient Id.</li><li>Another redux action updates the active screen and changes it to that of patient encounters.</li><li>The patient encounter screens contains all the patient encounters which are fetched using the stored patient Id.</li><li>On clicking an encounter a redux action updates active page to dashboard.</li><li>the dashboard page contains 2 tab: physical exams, order.</li><li>the physical exams tab shows the observations of the patient and contains a component to create any observation.</li><li>the orders tab will be used to create orders using service request component.</li><li>the user can log out and select a different patient to repeat the above points.</li></ul><p>the pointers for the implementation points of the e-prescription workflow:</p><ul><li>First screen contains a find-patient component to select a patient.</li><li>After the patient is selected a redux action is triggered which updates redux state and stores the selected patient Id.</li><li>Another redux action updates the active screen and changes it to that of patient encounters.</li><li>The patient encounter screens contains all the patient encounters which are fetched using the stored patient Id.</li><li>On clicking an encounter a redux action updates active page to dashboard.</li><li>the dashboard page contains a single screen with a search component for allergies and medications of the patient.</li><li>the screen also contains a create medication request component.</li></ul><p>see you next week 😄.</p><hr>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;center&gt;
+&lt;img src=&quot;https://pbs.twimg.com/media/EwEDuXNXAAQCoXF.png&quot; alt=&quot;LibreHealth&quot; width=&quot;400&quot;/&gt;
+&lt;/center&gt;
+
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="LibreHealth" scheme="https://geforce6t.github.io/blog/categories/LibreHealth/"/>
+    
+    
+    <category term="GSoC21" scheme="https://geforce6t.github.io/blog/tags/GSoC21/"/>
+    
+  </entry>
   
   <entry>
     <title>Week6</title>
