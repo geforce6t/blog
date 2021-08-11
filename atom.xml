@@ -6,7 +6,7 @@
   <link href="https://geforce6t.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://geforce6t.github.io/blog/"/>
-  <updated>2021-08-04T06:47:27.206Z</updated>
+  <updated>2021-08-11T13:15:15.489Z</updated>
   <id>https://geforce6t.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Week9</title>
+    <link href="https://geforce6t.github.io/blog/2021/08/11/Week9/"/>
+    <id>https://geforce6t.github.io/blog/2021/08/11/Week9/</id>
+    <published>2021-08-11T12:52:30.000Z</published>
+    <updated>2021-08-11T13:15:15.489Z</updated>
+    
+    <content type="html"><![CDATA[<hr><center><img src="https://pbs.twimg.com/media/EwEDuXNXAAQCoXF.png" alt="LibreHealth" width="400"/></center><h3 id="PROGRESS-MADE-THIS-WEEK"><a href="#PROGRESS-MADE-THIS-WEEK" class="headerlink" title="PROGRESS MADE THIS WEEK:"></a>PROGRESS MADE THIS WEEK:</h3><p>Hi, We are almost done with the implemention of the proposal. The additional work is to make improvements and fixes. According to the feedback of the UI/UX designer from the team, the following improvements should be made to the webcomponents:</p><ul><li><input checked="" disabled="" type="checkbox"> Outlined type for all the fields to maintain consistency.</li><li><input checked="" disabled="" type="checkbox"> Appropriate placeholder text.</li><li><input checked="" disabled="" type="checkbox"> Fix spelling mistakes.</li><li><input checked="" disabled="" type="checkbox"> Convert sections to collapsable rows/columns.</li><li><input checked="" disabled="" type="checkbox"> Improve spacing between fields.</li><li><input checked="" disabled="" type="checkbox"> Add asterisks to indicate mandatory fields.</li></ul><p>In the coming week these pointers will be implemented along with documentation and other fixes.</p><h3 id="DESCRIPTION"><a href="#DESCRIPTION" class="headerlink" title="DESCRIPTION:"></a>DESCRIPTION:</h3><p><img src="https://i.imgur.com/ZlooXju.pnghttps://imgur.com/ZlooXju" alt="pssing params to the search component"></p><p><img src="https://i.imgur.com/LmL826P.pnghttps://i.imgur.com/ZlooXju.pnghttps://imgur.com/ZlooXju" alt="pssing params to the search component"></p><h4 id="Merge-Requests"><a href="#Merge-Requests" class="headerlink" title="Merge Requests:"></a>Merge Requests:</h4><ul><li><a href="https://gitlab.com/librehealth/toolkit/lh-toolkit-webcomponents/-/merge_requests/128">https://gitlab.com/librehealth/toolkit/lh-toolkit-webcomponents/-/merge_requests/128</a></li></ul><h3 id="NEXT-WEEK’s-PLAN"><a href="#NEXT-WEEK’s-PLAN" class="headerlink" title="NEXT WEEK’s PLAN:"></a>NEXT WEEK’s PLAN:</h3><ul><li>Write documentation</li><li>React optimization</li><li>find and fix bugs.</li></ul><p>see you next week 😄.</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;center&gt;
+&lt;img src=&quot;https://pbs.twimg.com/media/EwEDuXNXAAQCoXF.png&quot; alt=&quot;LibreHealth&quot; width=&quot;400&quot;/&gt;
+&lt;/center&gt;
+
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="LibreHealth" scheme="https://geforce6t.github.io/blog/categories/LibreHealth/"/>
+    
+    
+    <category term="GSoC21" scheme="https://geforce6t.github.io/blog/tags/GSoC21/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>post</title>
+    <link href="https://geforce6t.github.io/blog/2021/08/11/post/"/>
+    <id>https://geforce6t.github.io/blog/2021/08/11/post/</id>
+    <published>2021-08-11T12:52:19.000Z</published>
+    <updated>2021-08-11T12:52:19.654Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Week8</title>
